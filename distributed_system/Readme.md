@@ -42,6 +42,7 @@ To stop all active Erlang nodes:
 ``` bash
 
 $ ./stop_nodes.sh
+
 ```
 Notes
 -----
