@@ -1,0 +1,10 @@
+{application, matrix_multiplication,
+ [{description, "Matrix Multiplication Application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {matrix_multiplication_app, []}},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {modules, []},
+  {maxT, infinity},
+  {maxP, infinity}]}.
