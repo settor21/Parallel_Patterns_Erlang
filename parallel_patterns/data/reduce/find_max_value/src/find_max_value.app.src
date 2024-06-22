@@ -1,0 +1,21 @@
+{application, find_max_value,
+ [
+  {description, "Find Max Value Application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {find_max_value_app, []}},
+  {applications,
+   [
+    kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [
+    find_max_value,
+    find_max_value_sup,
+    reduce_max,
+    sequential_max
+  ]},
+  {maxT,infinity},
+  {maxP,infinity}
+ ]}.
